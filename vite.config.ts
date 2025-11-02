@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/social-lens-ai-08/", // Add base path for GitHub Pages deployment
   server: {
     host: "::",
     port: 8080,
